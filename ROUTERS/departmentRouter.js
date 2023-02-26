@@ -4,6 +4,7 @@ const Bll = require("../BLLS/departmentBLL");
 
 // https://e-commerce-server-019n.onrender.com/department
 
+
 router.get("/department", Bll.getAllDepartments);
 router.get("/department/:id", Bll.getDepartment);
 router.post("/department", Bll.createDepartment);
