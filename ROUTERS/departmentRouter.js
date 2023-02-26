@@ -2,7 +2,8 @@ const express = require("express");
 const router = express.Router();
 const Bll = require("../BLLS/departmentBLL");
 
-// https://e-commerce-server-019n.onrender.com/department
+// https://e-commerce-server-3zp6.onrender.com/department
+
 
 
 router.get("/department", Bll.getAllDepartments);

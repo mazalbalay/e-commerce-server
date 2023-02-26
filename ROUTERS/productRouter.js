@@ -3,7 +3,7 @@ const productBLL = require("../BLLS/productBLL");
 
 const router = express.Router();
 
-// https://e-commerce-server-019n.onrender.com/product
+// https://e-commerce-server-3zp6.onrender.com/product
 
 router.get("/product", productBLL.getAllProducts);
 router.get("/product/:id", productBLL.getProduct);
